@@ -14,7 +14,7 @@
         android:id="@+id/btnTakeScreenshot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_start"/>
+        android:text="@string/btn_take_screenshot"/>
 
     <ImageView
         android:id="@+id/ivScreenshot"

@@ -5,4 +5,5 @@
     <string name="btn_start">Start</string>
     <string name="hint_enter_text">Enter text here</string>
     <string name="btn_create_pdf">Create PDF</string>
+    <string name="btn_take_screenshot">Take screenshot</string>
 </resources>
