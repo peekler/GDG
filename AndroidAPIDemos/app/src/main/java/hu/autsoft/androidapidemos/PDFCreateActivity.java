@@ -10,6 +10,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -108,7 +109,7 @@ public class PDFCreateActivity extends AppCompatActivity {
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace();
+                    Log.d("TAG_PDF", "File was not created: "+e.getMessage());
                 } finally {
                     try {
                         out.close();
@@ -118,7 +119,5 @@ public class PDFCreateActivity extends AppCompatActivity {
                 }
             }
         }.start();
-
-
     }
 }
