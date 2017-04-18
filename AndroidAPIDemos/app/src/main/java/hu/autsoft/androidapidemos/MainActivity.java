@@ -20,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
+    @OnClick(R.id.btnFace)
+    public void faceClicked(View view) {
+        startActivity(new Intent(MainActivity.this, CameraActivity.class));
+    }
+
     @OnClick(R.id.btnSpellChecker)
     public void spellCheckClicked(View view) {
         startActivity(new Intent(MainActivity.this, SpellCheckerActivity.class));

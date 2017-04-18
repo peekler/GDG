@@ -11,6 +11,12 @@
     android:orientation="vertical"
     tools:context="hu.autsoft.androidapidemos.MainActivity">
 
+
+    <Button
+        android:id="@+id/btnFace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Face detector" />
     <Button
         android:id="@+id/btnSpellChecker"
         android:layout_width="match_parent"
