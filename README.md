@@ -1,2 +1,2 @@
 # GDG
-Repository for Google Developer Group demos
+Repository for Google Developer Group 
